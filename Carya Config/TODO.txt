@@ -1,0 +1,12 @@
+Escape\unescape comma's in string array elements.
+String to boolean\boolean to string as DD method.
+String to enum\enum to string as DD method.
+USC-16 LE\BE, UTF-8 to MBCS.
+Rename Key, Rename Section.
+Adding raw lines (to create section, key or comment).
+Use execute key query everywhere (delete, set, etc.).
+A global cache per instance VI.
+Mark keys as read only, (optional) error if attempting to write.
+Variant Accessor should also return an optional string that can be used by Get\Set Key (RAW) overwrites. E.g. to multiply by factor.
+Non-persitant items functionality could be enhanced. We now have store\don't store. Maybe a feature store\don't store\store original value would be nice?
+The Match Query retreives all data items of Sections or Content. If the search was done in CConfig Object, that is not needed. Might save some CPU\mem copies...
